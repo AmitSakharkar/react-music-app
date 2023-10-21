@@ -1,38 +1,56 @@
 .App {
-  text-align: center;
+  background: linear-gradient(145deg, #3f3e3e, #353434);
+  height: 100vh;
+  width: 100vw;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.now-playing-parent-div {
+  padding: 10px;
+  height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.list-control-container{
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.playing-song-container {
+  display: flex;
+  flex: 5;
+  justify-content: space-evenly;
+}
+
+.song-art-display-container {
+  width: 65%;
+  height: 45%;
+  padding: 5px;
+  border-radius: 50%;
+  background: #3b3a3a;
+  box-shadow: 14px 14px 29px #2a2a2a, -14px -14px 29px #4c4a4a;
+}
+
+.song-art-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.song-name-progress-container {
+  display: flex;
+  flex: 2;
+  justify-content: space-evenly;
+
+}
+
+.controls-container{
+  display: flex;
+  flex: 2;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
 }

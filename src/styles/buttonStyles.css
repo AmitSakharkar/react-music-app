@@ -1,0 +1,15 @@
+.button-highlight {
+    box-shadow:  5px 5px 10px #302f2f, -5px -5px 10px #464545 !important;
+    background: linear-gradient(145deg, #3f3e3e, #353434);
+}
+
+.button-highlight:active {
+    background: linear-gradient(145deg, #353434, #3f3e3e);
+}
+.songs-list-button{
+    height: 40px;
+    width: 40px;
+    right: 10px;
+    top: 10px;
+    position: fixed;
+}
